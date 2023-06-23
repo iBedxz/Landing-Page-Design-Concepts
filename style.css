@@ -6,6 +6,8 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #343a40;
+  border-bottom: 8px solid #7950f2;
 }
 
 .container {
@@ -19,7 +21,7 @@ section {
 }
 
 blockquote {
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -121,3 +123,42 @@ img {
   justify-content: space-between;
   font-size: 20px;
 }
+
+/* Button */
+
+.btn:link,
+.btn:visited {
+  background-color: #7950f2;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  display: inline-block;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #845ef7;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.quote-section {
+  background-color: #7950f2;
+  color: #fff;
+  padding: 24px;
+}
+
+/* 
+MAIN COLOR: #fd7e14
+TINT: #343a40
+ */
