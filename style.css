@@ -116,12 +116,15 @@ img {
 
 .design-box ul li {
   margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .info-product {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  align-items: center;
 }
 
 /* Button */
@@ -149,7 +152,7 @@ img {
 
 .btn--small {
   font-size: 14px;
-  padding: 8px 12px;
+  padding: 8px 10px;
 }
 
 .quote-section {
@@ -158,7 +161,21 @@ img {
   padding: 24px;
 }
 
+.feature-icon {
+  stroke: #7950f2;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.description-icon {
+  stroke: #7950f2;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
 /* 
 MAIN COLOR: #fd7e14
 TINT: #343a40
- */
+*/
