@@ -4,10 +4,17 @@ Hi there! This little project is a like a landing page really basic to apply som
 
 
 
+## Some designs knowledge applied on this project:
 
-## Some designs tecniques used:
+- Typography
 
-- Additional browser support
+- Colors
 
-- Add more integrations
+- Icons
+
+- Shadows
+
+- Border-radius
+  
+- Whitespace and Visual Hierarchy
 
