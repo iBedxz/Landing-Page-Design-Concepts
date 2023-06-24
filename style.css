@@ -17,16 +17,12 @@ body {
 
 header,
 section {
-  margin-bottom: 60px;
-}
-
-blockquote {
-  margin-bottom: 40px;
+  margin-bottom: 96px;
 }
 
 h1 {
   /* Font-size: 44 / 52 / 62 */
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
@@ -54,11 +50,13 @@ p {
 .features-title {
   font-size: 20px;
   letter-spacing: -0.8px;
+  margin-bottom: 16px;
 }
 
 .features-text {
   font-size: 18px;
   line-height: 1.7;
+  margin-bottom: initial;
 }
 
 /* HEADER GRID */
@@ -71,6 +69,10 @@ header {
 
 .header-text-box {
   align-self: center;
+}
+
+.header-text-box p {
+  margin-bottom: 28px;
 }
 
 img {
@@ -93,11 +95,14 @@ img {
 
 .quote-box p {
   margin-bottom: 0;
+  color: #e5dbff;
 }
 
 .quote-box blockquote {
   font-size: 18px;
   line-height: 1.7;
+  margin-bottom: 40px;
+  color: #f3f0ff;
 }
 
 /* Last Section */
@@ -113,7 +118,7 @@ img {
 }
 
 .design-box {
-  padding: 24px;
+  padding: 32px;
 }
 .design-box h3 {
   margin-bottom: 1.5rem;
@@ -123,12 +128,17 @@ img {
   list-style: none;
   display: flex;
   flex-direction: column;
+  margin-bottom: 42px;
 }
 
 .design-box ul li {
-  margin-bottom: 1.5rem;
+  margin-bottom: 16px;
   display: flex;
   align-items: center;
+}
+
+.design-box ul li:last-child {
+  margin-bottom: 0px;
 }
 
 .info-product {
@@ -179,7 +189,7 @@ img {
   stroke: #7950f2;
   width: 30px;
   height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 
 .description-icon {
